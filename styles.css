@@ -1,0 +1,41 @@
+/* Styles for profile photo */
+.container {
+    display: flex; /* Use flexbox to control layout */
+    align-items: center; /* Center items vertically */
+}
+
+.details {
+    flex: 1; /* Allow the details section to expand */
+    text-align: left; /* Align text to the left */
+}
+
+.profile-img {
+    border-radius: 50%; /* Make the image round */
+    width: 100px; /* Set the width */
+    height: 100px; /* Set the height */
+    object-fit: cover; /* Cover the container */
+    margin-left: auto; /* Move the image to the right */
+}
+
+/* Additional styles for certifications list and green button */
+.certifications li,
+.Internship li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Adds a gap of 2 lines between certifications */
+}
+
+.green-btn {
+    margin-left: auto; /* Pushes the button to the right */
+    background-color: green; /* Sets the background color to green */
+    color: white; /* Sets the text color to white */
+    border: none; /* Removes the border */
+    padding: 8px 16px; /* Adds padding to the button */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    border-radius: 4px; /* Adds border radius for rounded corners */
+    transition: background-color 0.3s; /* Adds smooth transition effect */
+}
+
+.green-btn:hover {
+    background-color: darkgreen; /* Darkens the button color on hover */
+}
